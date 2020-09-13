@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#6C37CC"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".MainActivity16">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+android:text="
+Android 9 Pie (API 28)
+Android Pie is the ninth major version of the Android operating system. It was first announced by Google on March 7, 2018, and the first developer preview was released on the same day. The second preview, considered beta quality, was released on May 8, 2018. The final beta of Android Pie (fifth preview, also considered as a Release Candidate was released on July 25, 2018. The first official release was released on August 6, 2018.
+"
+        android:textColor="#111010"
+        android:textSize="35sp" />
+</LinearLayout>

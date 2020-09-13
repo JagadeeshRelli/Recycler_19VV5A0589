@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#6C37CC"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".MainActivity18">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+android:text="
+Android 10 is the tenth major version of the Android operating system. The stable version of Android 10 was released on September 3, 2019."
+        android:textColor="#111010"
+        android:textSize="35sp" />
+</LinearLayout>

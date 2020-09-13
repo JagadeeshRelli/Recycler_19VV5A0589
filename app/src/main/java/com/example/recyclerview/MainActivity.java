@@ -11,7 +11,9 @@ public class MainActivity extends AppCompatActivity {
     int[] images;
     String[] titles;
         String[] versions;
+        String[] releaseDate;
     MyAdapter adapter;
+
 
 
 
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         recycler=findViewById(R.id.recyclerview);
         titles=getResources().getStringArray(R.array.imagetitles);
         versions=getResources().getStringArray(R.array.imageversions);
+        releaseDate=getResources().getStringArray(R.array.releasedate);
 
 
 
@@ -38,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.i15,R.drawable.i16
         };
 
-        adapter= new MyAdapter(this,titles,versions,images);
+        adapter= new MyAdapter(this,titles,versions,images,releaseDate);
         recycler.setLayoutManager(new LinearLayoutManager(this));
         recycler.setAdapter(adapter);
 
